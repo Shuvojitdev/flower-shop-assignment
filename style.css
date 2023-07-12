@@ -1,0 +1,269 @@
+* {
+    margin: 02;
+    padding: 02;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Basic Styles start */
+.button-primary {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #E55473;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+
+}
+.shop {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.button-primary {
+    border: 2px solid #E55473;
+    color: #E55473;
+    background-color: transparent;
+    transition: .3s ease-in-out;
+}
+
+p {
+    font-size: 19px;
+}
+
+.opacity {
+    opacity: 60%;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+
+/* Main-Header Section */
+.main-header-container {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);
+    padding: 40px 200px 0px;
+}
+
+.Main-header-image {
+    width: 400px;
+    opacity: 100%;
+}
+
+.header-content-sec>h1 {
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.header-content-sec>p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+/* features */
+.main-feature-contents {
+    margin: 100px 50px 20px;
+    text-align: center;
+}
+
+.main-feature-contents>h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.main-feature-contents>p {
+    font-size: 18px;
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.image img {
+    height: 390px;
+    padding: 60px 20px;
+}
+
+.image>div {
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: yellow;
+    border-radius: 220px 220px 0 0;
+}
+
+.image p {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* supports section */
+.supports {
+    width: 80%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: rgba(39, 39, 39, 0.05);
+
+}
+
+.support-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-sec img {
+    width: 75px;
+}
+
+/* hot deals-section */
+.deals-sec {
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#deals-sec {
+    background-color: rgba(229, 84, 115, 0.05);
+}
+
+.instagram-sec {
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rectangles {
+    margin: 10px auto;
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle img {
+    width: 300px;
+}
+
+/* newsletter-sec */
+.newsletter {
+    width: 80%;
+    height: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-image: url(Flower Asset/Rectangle 9.png;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-pic{
+    width: 1440px;
+height: 449px;
+flex-shrink: 0;
+border-radius: 8px;
+background: url(),
+ lightgray 0px -203.444px / 100% 213.755% no-repeat;
+}
+.contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.mail input {
+    height: 20px;
+    width: 200px;
+    padding: 12px 15px;
+    margin-right: 2px;
+}
+
+/* form area */
+.form-area{
+    max-width: 1140px;
+    background-image: url('../flower-shop-assignment/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px 0;
+    margin: auto;
+    margin-bottom: 60px;
+}
+.form-title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+form input{
+    width: 500px;
+    height: 42px;
+    border: 0;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 0 15px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* final footer section */
+footer {
+    background: #111010;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+}
