@@ -16,7 +16,8 @@
 
 }
 .shop {
-    color: #FFF;
+    color:white;
+    
     font-family: Lato;
     font-size: 20px;
     font-style: normal;
@@ -27,7 +28,7 @@
 .button-primary {
     border: 2px solid #E55473;
     color: #E55473;
-    background-color: transparent;
+     background-color: transparent;
     transition: .3s ease-in-out;
 }
 
